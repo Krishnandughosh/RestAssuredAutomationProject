@@ -9,6 +9,7 @@
       <class name="com.employeeapi.testcase.TC_001_GET_ALL_EMP">
         <methods>
           <include name="setup"/>
+          <include name="validationTime"/>
           <include name="getAllEmpData"/>
           <include name="validationCode"/>
           <include name="tearDown"/>

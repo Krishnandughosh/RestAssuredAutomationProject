@@ -32,7 +32,7 @@ public class TC_001_GET_ALL_EMP extends TestBase{
 	
 	@Test
 	public void validationCode() {
-		int statusCodeExpected=201;
+		int statusCodeExpected=200;
 		validation.validationStatusCode(response,statusCodeExpected);
 	}
 	@Test
