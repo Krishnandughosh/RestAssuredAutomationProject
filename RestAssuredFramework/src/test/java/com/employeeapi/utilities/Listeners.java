@@ -31,7 +31,7 @@ public class Listeners extends TestListenerAdapter
 		extent.setSystemInfo("Project Name","Employee Database API");
 		extent.setSystemInfo("Host name","localhost");
 		extent.setSystemInfo("Environemnt","QA");
-		extent.setSystemInfo("user","pavan");
+		extent.setSystemInfo("user","Krishnandu");
 			
 	}
 	
@@ -39,24 +39,23 @@ public class Listeners extends TestListenerAdapter
 	{
 		//test=extent.createTest(result.getClass().getName());
 		//test.createNode(result.getName());
-		test=extent.createTest(result.getName()); // create new entry in th report
-				
-		test.log(Status.PASS, "Test Case PASSED IS " + result.getName());
+		test=extent.createTest(result.getInstanceName()+"_"+result.getName()); // create new entry in the report
+		test.log(Status.PASS, "Test Case PASSED IS " + result.getInstanceName()+"_"+ result.getName());
 	}
 	
 	public void onTestFailure(ITestResult result)
 	{
-		test=extent.createTest(result.getName()); // create new entry in th report
+		test=extent.createTest(result.getInstanceName()+"_"+result.getName()); // create new entry in th report
 		
-		test.log(Status.FAIL, "TEST CASE FAILED IS " + result.getName()); // to add name in extent report
+		test.log(Status.FAIL, "TEST CASE FAILED IS " +result.getInstanceName()+"_"+ result.getName()); // to add name in extent report
 		test.log(Status.FAIL, "TEST CASE FAILED IS " + result.getThrowable()); // to add error/exception in extent report
 	
 	}
 	
 	public void onTestSkipped(ITestResult result)
 	{
-		test=extent.createTest(result.getName()); // create new entry in th report
-		test.log(Status.SKIP, "Test Case SKIPPED IS " + result.getName());
+		test=extent.createTest(result.getInstanceName()+"_"+result.getName()); // create new entry in th report
+		test.log(Status.SKIP, "Test Case SKIPPED IS " +result.getInstanceName()+"_"+ result.getName());
 	}
 	
 	public void onFinish(ITestContext testContext)
