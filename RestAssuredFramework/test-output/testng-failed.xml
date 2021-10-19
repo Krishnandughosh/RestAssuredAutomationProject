@@ -9,10 +9,13 @@
       <class name="com.employeeapi.testcase.TC_001_GET_ALL_EMP">
         <methods>
           <include name="setup"/>
-          <include name="validationTime"/>
           <include name="getAllEmpData"/>
+          <include name="validationLine"/>
+          <include name="validationContent"/>
+          <include name="validationEncoding"/>
           <include name="validationCode"/>
           <include name="tearDown"/>
+          <include name="validationLength"/>
         </methods>
       </class> <!-- com.employeeapi.testcase.TC_001_GET_ALL_EMP -->
     </classes>

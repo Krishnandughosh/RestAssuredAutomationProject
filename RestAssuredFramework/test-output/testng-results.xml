@@ -2,52 +2,52 @@
 <testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-18T19:26:47 EDT" name="EmployeesRestAPISuite" finished-at="2021-10-18T19:26:50 EDT" duration-ms="3131">
+  <suite started-at="2021-10-19T05:59:12 EDT" name="EmployeesRestAPISuite" finished-at="2021-10-19T05:59:14 EDT" duration-ms="2303">
     <groups>
     </groups>
-    <test started-at="2021-10-18T19:26:47 EDT" name="EmployeesRestAPITest" finished-at="2021-10-18T19:26:50 EDT" duration-ms="3131">
+    <test started-at="2021-10-19T05:59:12 EDT" name="EmployeesRestAPITest" finished-at="2021-10-19T05:59:14 EDT" duration-ms="2303">
       <class name="com.employeeapi.testcase.TC_001_GET_ALL_EMP">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.employeeapi.testcase.TC_001_GET_ALL_EMP@77847718]" started-at="2021-10-18T19:26:48 EDT" name="setup" finished-at="2021-10-18T19:26:48 EDT" duration-ms="36" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.employeeapi.testcase.TC_001_GET_ALL_EMP@77847718]" started-at="2021-10-19T05:59:12 EDT" name="setup" finished-at="2021-10-19T05:59:12 EDT" duration-ms="33" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="getAllEmpData()[pri:0, instance:com.employeeapi.testcase.TC_001_GET_ALL_EMP@77847718]" started-at="2021-10-18T19:26:48 EDT" name="getAllEmpData" finished-at="2021-10-18T19:26:50 EDT" depends-on-methods="com.employeeapi.base.TestBase.setup" duration-ms="2755" status="PASS">
+        <test-method is-config="true" signature="getAllEmpData()[pri:0, instance:com.employeeapi.testcase.TC_001_GET_ALL_EMP@77847718]" started-at="2021-10-19T05:59:12 EDT" name="getAllEmpData" finished-at="2021-10-19T05:59:14 EDT" depends-on-methods="com.employeeapi.base.TestBase.setup" duration-ms="2027" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllEmpData -->
-        <test-method signature="validationBody()[pri:0, instance:com.employeeapi.testcase.TC_001_GET_ALL_EMP@77847718]" started-at="2021-10-18T19:26:50 EDT" name="validationBody" finished-at="2021-10-18T19:26:50 EDT" duration-ms="36" status="PASS">
+        <test-method signature="validationBody()[pri:0, instance:com.employeeapi.testcase.TC_001_GET_ALL_EMP@77847718]" started-at="2021-10-19T05:59:14 EDT" name="validationBody" finished-at="2021-10-19T05:59:14 EDT" duration-ms="31" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validationBody -->
-        <test-method signature="validationCode()[pri:0, instance:com.employeeapi.testcase.TC_001_GET_ALL_EMP@77847718]" started-at="2021-10-18T19:26:50 EDT" name="validationCode" finished-at="2021-10-18T19:26:50 EDT" duration-ms="4" status="PASS">
+        <test-method signature="validationCode()[pri:0, instance:com.employeeapi.testcase.TC_001_GET_ALL_EMP@77847718]" started-at="2021-10-19T05:59:14 EDT" name="validationCode" finished-at="2021-10-19T05:59:14 EDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validationCode -->
-        <test-method signature="validationContent()[pri:0, instance:com.employeeapi.testcase.TC_001_GET_ALL_EMP@77847718]" started-at="2021-10-18T19:26:50 EDT" name="validationContent" finished-at="2021-10-18T19:26:50 EDT" duration-ms="5" status="PASS">
+        <test-method signature="validationContent()[pri:0, instance:com.employeeapi.testcase.TC_001_GET_ALL_EMP@77847718]" started-at="2021-10-19T05:59:14 EDT" name="validationContent" finished-at="2021-10-19T05:59:14 EDT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validationContent -->
-        <test-method signature="validationEncoding()[pri:0, instance:com.employeeapi.testcase.TC_001_GET_ALL_EMP@77847718]" started-at="2021-10-18T19:26:50 EDT" name="validationEncoding" finished-at="2021-10-18T19:26:50 EDT" duration-ms="4" status="PASS">
+        <test-method signature="validationEncoding()[pri:0, instance:com.employeeapi.testcase.TC_001_GET_ALL_EMP@77847718]" started-at="2021-10-19T05:59:14 EDT" name="validationEncoding" finished-at="2021-10-19T05:59:14 EDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validationEncoding -->
-        <test-method signature="validationLength()[pri:0, instance:com.employeeapi.testcase.TC_001_GET_ALL_EMP@77847718]" started-at="2021-10-18T19:26:50 EDT" name="validationLength" finished-at="2021-10-18T19:26:50 EDT" duration-ms="14" status="PASS">
+        <test-method signature="validationLength()[pri:0, instance:com.employeeapi.testcase.TC_001_GET_ALL_EMP@77847718]" started-at="2021-10-19T05:59:14 EDT" name="validationLength" finished-at="2021-10-19T05:59:14 EDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validationLength -->
-        <test-method signature="validationLine()[pri:0, instance:com.employeeapi.testcase.TC_001_GET_ALL_EMP@77847718]" started-at="2021-10-18T19:26:50 EDT" name="validationLine" finished-at="2021-10-18T19:26:50 EDT" duration-ms="5" status="PASS">
+        <test-method signature="validationLine()[pri:0, instance:com.employeeapi.testcase.TC_001_GET_ALL_EMP@77847718]" started-at="2021-10-19T05:59:14 EDT" name="validationLine" finished-at="2021-10-19T05:59:14 EDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validationLine -->
-        <test-method signature="validationServer()[pri:0, instance:com.employeeapi.testcase.TC_001_GET_ALL_EMP@77847718]" started-at="2021-10-18T19:26:50 EDT" name="validationServer" finished-at="2021-10-18T19:26:50 EDT" duration-ms="3" status="PASS">
+        <test-method signature="validationServer()[pri:0, instance:com.employeeapi.testcase.TC_001_GET_ALL_EMP@77847718]" started-at="2021-10-19T05:59:14 EDT" name="validationServer" finished-at="2021-10-19T05:59:14 EDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validationServer -->
-        <test-method signature="validationTime()[pri:0, instance:com.employeeapi.testcase.TC_001_GET_ALL_EMP@77847718]" started-at="2021-10-18T19:26:50 EDT" name="validationTime" finished-at="2021-10-18T19:26:50 EDT" duration-ms="4" status="PASS">
+        <test-method signature="validationTime()[pri:0, instance:com.employeeapi.testcase.TC_001_GET_ALL_EMP@77847718]" started-at="2021-10-19T05:59:14 EDT" name="validationTime" finished-at="2021-10-19T05:59:14 EDT" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validationTime -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.employeeapi.testcase.TC_001_GET_ALL_EMP@77847718]" started-at="2021-10-18T19:26:50 EDT" name="tearDown" finished-at="2021-10-18T19:26:50 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.employeeapi.testcase.TC_001_GET_ALL_EMP@77847718]" started-at="2021-10-19T05:59:14 EDT" name="tearDown" finished-at="2021-10-19T05:59:14 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

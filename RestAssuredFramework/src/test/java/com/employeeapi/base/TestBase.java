@@ -18,7 +18,7 @@ public class TestBase {
 	public static Response response;
 	public static String extendUri="";
 	public String empID="24";
-	public static String baseUri="http://dummy.restapiexample.com/api/v1";
+	public static String baseUri="http://dummy.restapiexample.com/api/v1";//http://dummy.restapiexample.com/api/v1/employees
 	public Logger logger=Logger.getLogger("EmployeeRestAPI");
 //	public Validation validation =new Validation();
 	public static String testCaseName="";

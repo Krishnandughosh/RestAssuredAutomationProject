@@ -185,3 +185,167 @@
 2021-10-18 19:26:50 INFO  EmployeeRestAPI:55 - ##validationResponseTime##
 2021-10-18 19:26:50 INFO  EmployeeRestAPI:61 - **PASS** responseTimeActual 1666
 2021-10-18 19:26:50 INFO  EmployeeRestAPI:74 - <<<<<<<<<< END TC001_Get_All_Employees>>>>>>>>>>>>>>
+2021-10-19 05:56:17 INFO  EmployeeRestAPI:20 - *********StartedTC001_Get_All_Employees**********
+2021-10-19 05:56:19 INFO  EmployeeRestAPI:16 - ##validationResponseBody##
+2021-10-19 05:56:19 INFO  EmployeeRestAPI:21 - **PASS** 
+2021-10-19 05:56:19 INFO  EmployeeRestAPI:28 - ##validationStatusCode##
+2021-10-19 05:56:19 DEBUG EmployeeRestAPI:36 - -->FAIL<-- statusCodeAcutal 429
+2021-10-19 05:56:19 INFO  EmployeeRestAPI:69 - ##validationContentType##
+2021-10-19 05:56:19 DEBUG EmployeeRestAPI:77 - -->FAIL<-- contentTypeActual text/html; charset=UTF-8
+2021-10-19 05:56:19 INFO  EmployeeRestAPI:97 - ##validationContentType##
+2021-10-19 05:56:19 INFO  EmployeeRestAPI:111 - ##validationcontentLength##
+2021-10-19 05:56:19 INFO  EmployeeRestAPI:41 - ##validationStatusLine##
+2021-10-19 05:56:19 DEBUG EmployeeRestAPI:49 - -->FAIL<-- statusLineActual HTTP/1.1 429 Too Many Requests
+2021-10-19 05:56:19 INFO  EmployeeRestAPI:83 - ##validationContentType##
+2021-10-19 05:56:19 INFO  EmployeeRestAPI:89 - **PASS** serverTypeActual cloudflare
+2021-10-19 05:56:19 INFO  EmployeeRestAPI:55 - ##validationResponseTime##
+2021-10-19 05:56:19 INFO  EmployeeRestAPI:61 - **PASS** responseTimeActual 1321
+2021-10-19 05:56:19 INFO  EmployeeRestAPI:74 - <<<<<<<<<< END TC001_Get_All_Employees>>>>>>>>>>>>>>
+2021-10-19 05:56:36 INFO  EmployeeRestAPI:20 - *********StartedTC001_Get_All_Employees**********
+2021-10-19 05:56:39 INFO  EmployeeRestAPI:16 - ##validationResponseBody##
+2021-10-19 05:56:39 INFO  EmployeeRestAPI:21 - **PASS** 
+2021-10-19 05:56:39 INFO  EmployeeRestAPI:28 - ##validationStatusCode##
+2021-10-19 05:56:39 DEBUG EmployeeRestAPI:36 - -->FAIL<-- statusCodeAcutal 429
+2021-10-19 05:56:39 INFO  EmployeeRestAPI:69 - ##validationContentType##
+2021-10-19 05:56:39 DEBUG EmployeeRestAPI:77 - -->FAIL<-- contentTypeActual text/html; charset=UTF-8
+2021-10-19 05:56:39 INFO  EmployeeRestAPI:97 - ##validationContentType##
+2021-10-19 05:56:39 INFO  EmployeeRestAPI:111 - ##validationcontentLength##
+2021-10-19 05:56:39 INFO  EmployeeRestAPI:41 - ##validationStatusLine##
+2021-10-19 05:56:39 DEBUG EmployeeRestAPI:49 - -->FAIL<-- statusLineActual HTTP/1.1 429 Too Many Requests
+2021-10-19 05:56:39 INFO  EmployeeRestAPI:83 - ##validationContentType##
+2021-10-19 05:56:39 INFO  EmployeeRestAPI:89 - **PASS** serverTypeActual cloudflare
+2021-10-19 05:56:39 INFO  EmployeeRestAPI:55 - ##validationResponseTime##
+2021-10-19 05:56:39 INFO  EmployeeRestAPI:61 - **PASS** responseTimeActual 1208
+2021-10-19 05:56:39 INFO  EmployeeRestAPI:74 - <<<<<<<<<< END TC001_Get_All_Employees>>>>>>>>>>>>>>
+2021-10-19 05:57:58 INFO  EmployeeRestAPI:20 - *********StartedTC001_Get_All_Employees**********
+2021-10-19 05:58:00 INFO  EmployeeRestAPI:16 - ##validationResponseBody##
+2021-10-19 05:58:00 INFO  EmployeeRestAPI:21 - **PASS** 
+2021-10-19 05:58:00 INFO  EmployeeRestAPI:28 - ##validationStatusCode##
+2021-10-19 05:58:00 DEBUG EmployeeRestAPI:36 - -->FAIL<-- statusCodeAcutal 429
+2021-10-19 05:58:00 INFO  EmployeeRestAPI:69 - ##validationContentType##
+2021-10-19 05:58:00 DEBUG EmployeeRestAPI:77 - -->FAIL<-- contentTypeActual text/html; charset=UTF-8
+2021-10-19 05:58:00 INFO  EmployeeRestAPI:97 - ##validationContentType##
+2021-10-19 05:58:00 INFO  EmployeeRestAPI:111 - ##validationcontentLength##
+2021-10-19 05:58:00 INFO  EmployeeRestAPI:41 - ##validationStatusLine##
+2021-10-19 05:58:00 DEBUG EmployeeRestAPI:49 - -->FAIL<-- statusLineActual HTTP/1.1 429 Too Many Requests
+2021-10-19 05:58:00 INFO  EmployeeRestAPI:83 - ##validationContentType##
+2021-10-19 05:58:00 INFO  EmployeeRestAPI:89 - **PASS** serverTypeActual cloudflare
+2021-10-19 05:58:00 INFO  EmployeeRestAPI:55 - ##validationResponseTime##
+2021-10-19 05:58:00 INFO  EmployeeRestAPI:61 - **PASS** responseTimeActual 1094
+2021-10-19 05:58:00 INFO  EmployeeRestAPI:74 - <<<<<<<<<< END TC001_Get_All_Employees>>>>>>>>>>>>>>
+2021-10-19 05:59:12 INFO  EmployeeRestAPI:19 - *********StartedTC001_Get_All_Employees**********
+2021-10-19 05:59:14 INFO  EmployeeRestAPI:16 - ##validationResponseBody##
+2021-10-19 05:59:14 INFO  EmployeeRestAPI:21 - **PASS** 
+2021-10-19 05:59:14 INFO  EmployeeRestAPI:28 - ##validationStatusCode##
+2021-10-19 05:59:14 INFO  EmployeeRestAPI:34 - **PASS** statusCodeAcutal -> 200
+2021-10-19 05:59:14 INFO  EmployeeRestAPI:69 - ##validationContentType##
+2021-10-19 05:59:14 INFO  EmployeeRestAPI:75 - **PASS** contentTypeActual application/json
+2021-10-19 05:59:14 INFO  EmployeeRestAPI:97 - ##validationContentType##
+2021-10-19 05:59:14 INFO  EmployeeRestAPI:103 - **PASS** contentEncodingActual gzip
+2021-10-19 05:59:14 INFO  EmployeeRestAPI:111 - ##validationcontentLength##
+2021-10-19 05:59:14 INFO  EmployeeRestAPI:119 - **PASS** responseTimeActual 1062
+2021-10-19 05:59:14 INFO  EmployeeRestAPI:41 - ##validationStatusLine##
+2021-10-19 05:59:14 INFO  EmployeeRestAPI:47 - **PASS** statusLineActual HTTP/1.1 200 OK
+2021-10-19 05:59:14 INFO  EmployeeRestAPI:83 - ##validationContentType##
+2021-10-19 05:59:14 INFO  EmployeeRestAPI:89 - **PASS** serverTypeActual cloudflare
+2021-10-19 05:59:14 INFO  EmployeeRestAPI:55 - ##validationResponseTime##
+2021-10-19 05:59:14 INFO  EmployeeRestAPI:61 - **PASS** responseTimeActual 1062
+2021-10-19 05:59:14 INFO  EmployeeRestAPI:73 - <<<<<<<<<< END TC001_Get_All_Employees>>>>>>>>>>>>>>
+2021-10-19 06:01:40 INFO  EmployeeRestAPI:19 - *********StartedTC001_Get_All_Employees**********
+2021-10-19 06:01:42 INFO  EmployeeRestAPI:16 - ##validationResponseBody##
+2021-10-19 06:01:42 INFO  EmployeeRestAPI:21 - **PASS** 
+2021-10-19 06:01:42 INFO  EmployeeRestAPI:28 - ##validationStatusCode##
+2021-10-19 06:01:42 DEBUG EmployeeRestAPI:36 - -->FAIL<-- statusCodeAcutal 429
+2021-10-19 06:01:42 INFO  EmployeeRestAPI:69 - ##validationContentType##
+2021-10-19 06:01:42 DEBUG EmployeeRestAPI:77 - -->FAIL<-- contentTypeActual text/html; charset=UTF-8
+2021-10-19 06:01:42 INFO  EmployeeRestAPI:97 - ##validationContentType##
+2021-10-19 06:01:42 INFO  EmployeeRestAPI:111 - ##validationcontentLength##
+2021-10-19 06:01:42 INFO  EmployeeRestAPI:41 - ##validationStatusLine##
+2021-10-19 06:01:42 DEBUG EmployeeRestAPI:49 - -->FAIL<-- statusLineActual HTTP/1.1 429 Too Many Requests
+2021-10-19 06:01:42 INFO  EmployeeRestAPI:83 - ##validationContentType##
+2021-10-19 06:01:42 INFO  EmployeeRestAPI:89 - **PASS** serverTypeActual cloudflare
+2021-10-19 06:01:42 INFO  EmployeeRestAPI:55 - ##validationResponseTime##
+2021-10-19 06:01:42 INFO  EmployeeRestAPI:61 - **PASS** responseTimeActual 1091
+2021-10-19 06:01:42 INFO  EmployeeRestAPI:73 - <<<<<<<<<< END TC001_Get_All_Employees>>>>>>>>>>>>>>
+2021-10-19 06:02:08 INFO  EmployeeRestAPI:19 - *********StartedTC001_Get_All_Employees**********
+2021-10-19 06:02:10 INFO  EmployeeRestAPI:16 - ##validationResponseBody##
+2021-10-19 06:02:10 INFO  EmployeeRestAPI:21 - **PASS** 
+2021-10-19 06:02:10 INFO  EmployeeRestAPI:28 - ##validationStatusCode##
+2021-10-19 06:02:10 DEBUG EmployeeRestAPI:36 - -->FAIL<-- statusCodeAcutal 429
+2021-10-19 06:02:10 INFO  EmployeeRestAPI:69 - ##validationContentType##
+2021-10-19 06:02:10 DEBUG EmployeeRestAPI:77 - -->FAIL<-- contentTypeActual text/html; charset=UTF-8
+2021-10-19 06:02:10 INFO  EmployeeRestAPI:97 - ##validationContentType##
+2021-10-19 06:02:10 INFO  EmployeeRestAPI:111 - ##validationcontentLength##
+2021-10-19 06:02:10 INFO  EmployeeRestAPI:41 - ##validationStatusLine##
+2021-10-19 06:02:10 DEBUG EmployeeRestAPI:49 - -->FAIL<-- statusLineActual HTTP/1.1 429 Too Many Requests
+2021-10-19 06:02:10 INFO  EmployeeRestAPI:83 - ##validationContentType##
+2021-10-19 06:02:10 INFO  EmployeeRestAPI:89 - **PASS** serverTypeActual cloudflare
+2021-10-19 06:02:10 INFO  EmployeeRestAPI:55 - ##validationResponseTime##
+2021-10-19 06:02:10 INFO  EmployeeRestAPI:61 - **PASS** responseTimeActual 1060
+2021-10-19 06:02:10 INFO  EmployeeRestAPI:73 - <<<<<<<<<< END TC001_Get_All_Employees>>>>>>>>>>>>>>
+2021-10-19 06:02:44 INFO  EmployeeRestAPI:19 - *********StartedTC001_Get_All_Employees**********
+2021-10-19 06:02:46 INFO  EmployeeRestAPI:16 - ##validationResponseBody##
+2021-10-19 06:02:46 INFO  EmployeeRestAPI:21 - **PASS** 
+2021-10-19 06:02:46 INFO  EmployeeRestAPI:28 - ##validationStatusCode##
+2021-10-19 06:02:46 INFO  EmployeeRestAPI:34 - **PASS** statusCodeAcutal -> 200
+2021-10-19 06:02:46 INFO  EmployeeRestAPI:69 - ##validationContentType##
+2021-10-19 06:02:46 INFO  EmployeeRestAPI:75 - **PASS** contentTypeActual application/json
+2021-10-19 06:02:46 INFO  EmployeeRestAPI:97 - ##validationContentType##
+2021-10-19 06:02:46 INFO  EmployeeRestAPI:103 - **PASS** contentEncodingActual gzip
+2021-10-19 06:02:46 INFO  EmployeeRestAPI:111 - ##validationcontentLength##
+2021-10-19 06:02:46 INFO  EmployeeRestAPI:119 - **PASS** responseTimeActual 1107
+2021-10-19 06:02:46 INFO  EmployeeRestAPI:41 - ##validationStatusLine##
+2021-10-19 06:02:46 INFO  EmployeeRestAPI:47 - **PASS** statusLineActual HTTP/1.1 200 OK
+2021-10-19 06:02:46 INFO  EmployeeRestAPI:83 - ##validationContentType##
+2021-10-19 06:02:46 INFO  EmployeeRestAPI:89 - **PASS** serverTypeActual cloudflare
+2021-10-19 06:02:46 INFO  EmployeeRestAPI:55 - ##validationResponseTime##
+2021-10-19 06:02:46 INFO  EmployeeRestAPI:61 - **PASS** responseTimeActual 1107
+2021-10-19 06:02:46 INFO  EmployeeRestAPI:73 - <<<<<<<<<< END TC001_Get_All_Employees>>>>>>>>>>>>>>
+2021-10-19 06:09:12 INFO  EmployeeRestAPI:19 - *********StartedTC001_Get_All_Employees**********
+2021-10-19 06:09:14 INFO  EmployeeRestAPI:16 - ##validationResponseBody##
+2021-10-19 06:09:14 INFO  EmployeeRestAPI:21 - **PASS** 
+2021-10-19 06:09:14 INFO  EmployeeRestAPI:28 - ##validationStatusCode##
+2021-10-19 06:09:14 DEBUG EmployeeRestAPI:36 - -->FAIL<-- statusCodeAcutal 429
+2021-10-19 06:09:14 INFO  EmployeeRestAPI:69 - ##validationContentType##
+2021-10-19 06:09:14 DEBUG EmployeeRestAPI:77 - -->FAIL<-- contentTypeActual text/html; charset=UTF-8
+2021-10-19 06:09:14 INFO  EmployeeRestAPI:97 - ##validationContentType##
+2021-10-19 06:09:14 INFO  EmployeeRestAPI:111 - ##validationcontentLength##
+2021-10-19 06:09:14 INFO  EmployeeRestAPI:41 - ##validationStatusLine##
+2021-10-19 06:09:14 DEBUG EmployeeRestAPI:49 - -->FAIL<-- statusLineActual HTTP/1.1 429 Too Many Requests
+2021-10-19 06:09:14 INFO  EmployeeRestAPI:83 - ##validationContentType##
+2021-10-19 06:09:14 INFO  EmployeeRestAPI:89 - **PASS** serverTypeActual cloudflare
+2021-10-19 06:09:14 INFO  EmployeeRestAPI:55 - ##validationResponseTime##
+2021-10-19 06:09:14 INFO  EmployeeRestAPI:61 - **PASS** responseTimeActual 1084
+2021-10-19 06:09:14 INFO  EmployeeRestAPI:73 - <<<<<<<<<< END TC001_Get_All_Employees>>>>>>>>>>>>>>
+2021-10-19 06:09:35 INFO  EmployeeRestAPI:19 - *********StartedTC001_Get_All_Employees**********
+2021-10-19 06:09:37 INFO  EmployeeRestAPI:16 - ##validationResponseBody##
+2021-10-19 06:09:37 INFO  EmployeeRestAPI:21 - **PASS** 
+2021-10-19 06:09:37 INFO  EmployeeRestAPI:28 - ##validationStatusCode##
+2021-10-19 06:09:37 DEBUG EmployeeRestAPI:36 - -->FAIL<-- statusCodeAcutal 429
+2021-10-19 06:09:37 INFO  EmployeeRestAPI:69 - ##validationContentType##
+2021-10-19 06:09:37 DEBUG EmployeeRestAPI:77 - -->FAIL<-- contentTypeActual text/html; charset=UTF-8
+2021-10-19 06:09:37 INFO  EmployeeRestAPI:97 - ##validationContentType##
+2021-10-19 06:09:37 INFO  EmployeeRestAPI:111 - ##validationcontentLength##
+2021-10-19 06:09:37 INFO  EmployeeRestAPI:41 - ##validationStatusLine##
+2021-10-19 06:09:37 DEBUG EmployeeRestAPI:49 - -->FAIL<-- statusLineActual HTTP/1.1 429 Too Many Requests
+2021-10-19 06:09:37 INFO  EmployeeRestAPI:83 - ##validationContentType##
+2021-10-19 06:09:37 INFO  EmployeeRestAPI:89 - **PASS** serverTypeActual cloudflare
+2021-10-19 06:09:37 INFO  EmployeeRestAPI:55 - ##validationResponseTime##
+2021-10-19 06:09:37 INFO  EmployeeRestAPI:61 - **PASS** responseTimeActual 1017
+2021-10-19 06:09:37 INFO  EmployeeRestAPI:73 - <<<<<<<<<< END TC001_Get_All_Employees>>>>>>>>>>>>>>
+2021-10-19 06:10:02 INFO  EmployeeRestAPI:19 - *********StartedTC001_Get_All_Employees**********
+2021-10-19 06:10:04 INFO  EmployeeRestAPI:16 - ##validationResponseBody##
+2021-10-19 06:10:04 INFO  EmployeeRestAPI:21 - **PASS** 
+2021-10-19 06:10:04 INFO  EmployeeRestAPI:28 - ##validationStatusCode##
+2021-10-19 06:10:04 DEBUG EmployeeRestAPI:36 - -->FAIL<-- statusCodeAcutal 429
+2021-10-19 06:10:04 INFO  EmployeeRestAPI:69 - ##validationContentType##
+2021-10-19 06:10:04 DEBUG EmployeeRestAPI:77 - -->FAIL<-- contentTypeActual text/html; charset=UTF-8
+2021-10-19 06:10:04 INFO  EmployeeRestAPI:97 - ##validationContentType##
+2021-10-19 06:10:04 INFO  EmployeeRestAPI:111 - ##validationcontentLength##
+2021-10-19 06:10:04 INFO  EmployeeRestAPI:41 - ##validationStatusLine##
+2021-10-19 06:10:04 DEBUG EmployeeRestAPI:49 - -->FAIL<-- statusLineActual HTTP/1.1 429 Too Many Requests
+2021-10-19 06:10:04 INFO  EmployeeRestAPI:83 - ##validationContentType##
+2021-10-19 06:10:04 INFO  EmployeeRestAPI:89 - **PASS** serverTypeActual cloudflare
+2021-10-19 06:10:04 INFO  EmployeeRestAPI:55 - ##validationResponseTime##
+2021-10-19 06:10:04 INFO  EmployeeRestAPI:61 - **PASS** responseTimeActual 1054
+2021-10-19 06:10:04 INFO  EmployeeRestAPI:73 - <<<<<<<<<< END TC001_Get_All_Employees>>>>>>>>>>>>>>

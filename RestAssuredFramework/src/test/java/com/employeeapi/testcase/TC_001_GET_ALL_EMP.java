@@ -13,8 +13,7 @@ public class TC_001_GET_ALL_EMP extends TestBase{
 	
 	public Validation validation =new Validation();
 	@BeforeTest
-		public void getAllEmpData() throws InterruptedException {
-//		http://dummy.restapiexample.com/api/v1/employees		
+		public void getAllEmpData() throws InterruptedException {	
 		extendUri="/employees";
 		testCaseName="TC001_Get_All_Employees";
 		logger.info("*********Started"+testCaseName+"**********");
