@@ -12,8 +12,16 @@ import io.restassured.http.Method;
 public class TC_001_GET_ALL_EMP extends TestBase{
 	
 	public Validation validation =new Validation();
-	@BeforeTest
-		public void getAllEmpData() throws InterruptedException {	
+	String statusLineExpected="HTTP/1.1 200 OK";
+	int statusCodeExpected=200;
+	String contentTypeExpected="application/json";
+	String serverTypeExpected="cloudflare";
+	String contentEncodingExpected="gzip";
+	long contentLengthExpected=100;
+	long responseTimeExpect=2000;
+	
+	@BeforeClass
+	public void getAllEmpData() throws InterruptedException {	
 		extendUri="/employees";
 		testCaseName="TC001_Get_All_Employees";
 		logger.info("*********Started"+testCaseName+"**********");
@@ -21,7 +29,7 @@ public class TC_001_GET_ALL_EMP extends TestBase{
 		RestAssured.baseURI=baseUri;
 		httpRequest=RestAssured.given();		
 		response=httpRequest.request(Method.GET, extendUri);		
-		Thread.sleep(50);		
+		Thread.sleep(200);		
 	}
 	
 	@Test
@@ -31,44 +39,44 @@ public class TC_001_GET_ALL_EMP extends TestBase{
 	
 	@Test
 	public void validationCode() {
-		int statusCodeExpected=200;
+		
 		validation.validationStatusCode(response,statusCodeExpected);
 	}
 	@Test
-	public void validationLine() {
-		String statusLineExpected="HTTP/1.1 200 OK";
+	public void validationStatusLine() {
+		
 		validation.validationStatusLine(response,statusLineExpected);
 	}
 	
 	@Test
-	public void validationTime() {
-		long responseTimeExpect=2000;
+	public void validationResponseTime() {
+		
 		validation.validationResponseTime(response, responseTimeExpect);
 	}
 	
 	@Test
-	public void validationContent() {
-		String contentTypeExpected="application/json";
+	public void validationContentType() {
+		
 		validation.validationContentType(response, contentTypeExpected);
 	}
 	
 	@Test
-	public void validationServer() {
-		String serverTypeExpected="cloudflare";
+	public void validationServerType() {
+		
 		validation.validationServerType(response, serverTypeExpected);
 	}
 	
 	@Test
 	public void validationEncoding() {
-		String contentEncodingExpected="gzip";
+		
 		validation.validationContentEncoding(response, contentEncodingExpected);
 	}
 	@Test
 	public void validationLength() {
-		long contentLengthExpected=100;
+		
 		validation.validationcontentLength(response, contentLengthExpected);
 	}		
-@AfterTest
+@AfterClass
 	public void tearDown() {
 		logger.info("<<<<<<<<<< END "+testCaseName+">>>>>>>>>>>>>>");
 	}

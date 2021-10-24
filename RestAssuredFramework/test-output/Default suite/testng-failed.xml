@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.employeeapi.testcase.TC_001_GET_ALL_EMP">
+      <class name="com.employeeapi.testcase.TC_002_GET_SNG_EMP_DATA">
         <methods>
           <include name="setup"/>
-          <include name="getAllEmpData"/>
-          <include name="validationCode"/>
+          <include name="getSngEmpData"/>
+          <include name="validationContentLength"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.employeeapi.testcase.TC_001_GET_ALL_EMP -->
+      </class> <!-- com.employeeapi.testcase.TC_002_GET_SNG_EMP_DATA -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

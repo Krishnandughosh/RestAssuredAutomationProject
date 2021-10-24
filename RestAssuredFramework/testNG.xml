@@ -8,7 +8,7 @@
 	<test thread-count="5" name="EmployeesRestAPITest">
 		<classes>
 			<class name="com.employeeapi.testcase.TC_001_GET_ALL_EMP" />
-
+			<class name="com.employeeapi.testcase.TC_002_GET_SNG_EMP_DATA" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

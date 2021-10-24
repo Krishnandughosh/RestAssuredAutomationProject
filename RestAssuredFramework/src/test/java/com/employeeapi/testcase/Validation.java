@@ -34,6 +34,7 @@ public class Validation extends TestBase {
 				logger.info(PassMsg);			
 			} else {
 				logger.debug(failMsg);
+				logger.debug(response.getBody().asString());
 			}
 			Assert.assertEquals(statusCodeAcutal, statusCodeExpected,failMsg);
 		}
