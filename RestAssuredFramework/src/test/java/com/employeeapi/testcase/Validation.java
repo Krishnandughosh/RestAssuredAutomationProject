@@ -24,6 +24,24 @@ public class Validation extends TestBase {
 			}
 			Assert.assertTrue(reponseBody!=null,failMsg);
 		}		
+		public void validationResponsePost(Response response, String employee_name) {
+			logger.info("##validationResponsePost##");
+			String reponseBody=response.getBody().asString();	
+			String successMsg="Successfully! Record has been added";
+			failMsg="-->FAIL<-- ";
+			PassMsg="**PASS** ";
+			if (reponseBody.contains(successMsg) && reponseBody.contains(employee_name)) {
+				logger.info(PassMsg);
+			} else {
+				logger.debug(failMsg);
+				logger.debug(reponseBody);
+			}
+			Assert.assertTrue(reponseBody.contains(employee_name),failMsg);
+			
+//			Successfully! Record has been added.
+//			{"status":"success","data":{"profile_image":null,"employee_name":"Johneq","employee_salary":"01607","id":6958,"employee_age":"14"},"message":"Successfully! Record has been added."}
+
+		}
 		public void validationStatusCode(Response response,int statusCodeExpected) {
 			logger.info("##validationStatusCode##");
 			int statusCodeAcutal=response.getStatusCode();	

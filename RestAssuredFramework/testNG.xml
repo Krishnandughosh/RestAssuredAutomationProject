@@ -9,6 +9,8 @@
 		<classes>
 			<class name="com.employeeapi.testcase.TC_001_GET_ALL_EMP" />
 			<class name="com.employeeapi.testcase.TC_002_GET_SNG_EMP_DATA" />
+			<class name="com.employeeapi.testcase.TC_003_POST_NEW_EMP" />
+			
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
